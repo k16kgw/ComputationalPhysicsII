@@ -30,7 +30,7 @@ for i in range(1, N):
 
 # グラフの表示
 fig = plt.figure()                  # グラフの描画先の準備
-plt.title('μ=%1.3f' %mu)
+plt.title('初期値x0=%1.3f, 増加率μ=%1.3f' %(x0, mu))
 plt.plot(xlist, ylist)
 plt.xlabel('世代数')
 plt.ylabel('（無次元化された）個体数')
