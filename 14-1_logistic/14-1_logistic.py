@@ -34,5 +34,5 @@ plt.title('初期値x0=%1.3f, 増加率μ=%1.3f' %(x0, mu))
 plt.plot(xlist, ylist)
 plt.xlabel('世代数')
 plt.ylabel('（無次元化された）個体数')
-fig.savefig("x0_%1.3f-mu_%1.3f.png" %(x0, mu))     # グラフを画像に保存
+fig.savefig("14-1_logistic/x0_%1.3f-mu_%1.3f.png" %(x0, mu))     # グラフを画像に保存
 plt.show()
