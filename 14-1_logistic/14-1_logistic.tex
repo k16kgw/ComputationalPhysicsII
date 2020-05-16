@@ -66,125 +66,114 @@
   
   # グラフの表示
   fig = plt.figure()                  # グラフの描画先の準備
-  plt.title('初期値x0=%1.3f, 増加率μ=%1.3f' %(x0, mu))
+  plt.title('初期値x0=%1.4f, 増加率μ=%1.4f' %(x0, mu))
   plt.plot(xlist, ylist)
   plt.xlabel('世代数')
   plt.ylabel('（無次元化された）個体数')
-  fig.savefig("14-1_logistic/x0_%1.3f-mu_%1.3f.png" %(x0, mu))     # グラフをフォルダに画像として保存
+  fig.savefig("14-1_logistic/x0_%1.4f-mu_%1.4f.png" %(x0, mu))     # グラフをフォルダに画像として保存
   plt.show()
 \end{lstlisting}
 
 \section{実行結果の画像一覧}
 \subsection{初期値を$0.75$に固定して増加率を変化させる}
 
+課題14.3-3: $\mu<0$のとき個体数は振動しながら減衰し，$\mu=0$のとき個体数は直ちに消滅する．
 \begin{figure}[htpb]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_-1.000.png}
+        {x0_0.7500-mu_-1.0000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=-1$}
-        \label{fig:0.750_-1.000}
+        \label{fig:0.7500_-1.0000}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_-0.750.png}
+        {x0_0.7500-mu_-0.7500.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=-0.75$}
-        \label{fig:0.750_-0.750}
+        \label{fig:0.7500_-0.7500}
     \end{minipage}
     \\
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_-0.500.png}
+        {x0_0.7500-mu_-0.5000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=-0.5$}
-        \label{fig:0.750_-0.500}
+        \label{fig:0.7500_-0.5000}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_-0.250.png}
+        {x0_0.7500-mu_-0.2500.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=-0.25$}
-        \label{fig:0.750_-0.250}
+        \label{fig:0.7500_-0.2500}
     \end{minipage}
     \\
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_0.000.png}
+        {x0_0.7500-mu_0.0000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=0$}
-        \label{fig:0.750_0.000}
+        \label{fig:0.7500_0.0000}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_0.500.png}
+        {x0_0.7500-mu_0.5000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=0.5$}
-        \label{fig:0.750_-0.500}
+        \label{fig:0.7500_0.5000}
     \end{minipage}
   \end{tabular}
 \end{figure}
+
+\newpage
+課題14.3-4: $\mu \ge 0]$のときの個体数の変化．
 \begin{figure}[htpb]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_1.000.png}
+        {x0_0.7500-mu_0.0000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=0$}
+        \label{fig:0.7500_0.0000}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_0.5000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=0.5$}
+        \label{fig:0.7500_0.5000}
+    \end{minipage}
+    \\
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_1.0000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=1$}
-        \label{fig:0.750_1.000}
+        \label{fig:0.7500_1.0000}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_1.300.png}
+        {x0_0.7500-mu_1.3000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=1.3$}
-        \label{fig:0.750_1.300}
+        \label{fig:0.7500_1.3000}
     \end{minipage}
     \\
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_1.330.png}
+        {x0_0.7500-mu_1.3300.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=1.33$}
-        \label{fig:0.750_1.000}
+        \label{fig:0.7500_1.3300}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_1.350.png}
+        {x0_0.7500-mu_1.3500.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=1.35$}
-        \label{fig:0.750_1.350}
-    \end{minipage}
-    \\
-    \begin{minipage}{0.50\hsize}
-      \centering
-      \includegraphics[width=70mm]
-        {x0_0.750-mu_1.400.png}
-        \caption{初期値$x_0=0.75$，増加率$\mu=1.4$}
-        \label{fig:0.750_1.400}
-    \end{minipage}
-    \begin{minipage}{0.50\hsize}
-      \centering
-      \includegraphics[width=70mm]
-        {x0_0.750-mu_1.500.png}
-        \caption{初期値$x_0=0.75$，増加率$\mu=1.5$}
-        \label{fig:0.750_1.500}
-    \end{minipage}
-    \\
-    \begin{minipage}{0.50\hsize}
-      \centering
-      \includegraphics[width=70mm]
-        {x0_0.750-mu_2.000.png}
-        \caption{初期値$x_0=0.75$，増加率$\mu=2$}
-        \label{fig:0.750_2.000}
-    \end{minipage}
-    \begin{minipage}{0.50\hsize}
-      \centering
-      \includegraphics[width=70mm]
-        {x0_0.750-mu_2.500.png}
-        \caption{初期値$x_0=0.75$，増加率$\mu=2.5$}
-        \label{fig:0.750_2.500}
+        \label{fig:0.7500_1.3500}
     \end{minipage}
   \end{tabular}
 \end{figure}
@@ -193,14 +182,29 @@
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_2.800.png}
+        {x0_0.7500-mu_1.5000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=1.5$}
+        \label{fig:0.7500_1.5000}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_2.0000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=2$}
+        \label{fig:0.7500_2.0000}
+    \end{minipage}
+    \\
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_2.8000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=2.8$}
         \label{fig:0.750_2.800}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_2.900.png}
+        {x0_0.7500-mu_2.9000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=2.9$}
         \label{fig:0.750_2.900}
     \end{minipage}
@@ -208,14 +212,14 @@
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_3.000.png}
+        {x0_0.7500-mu_3.0000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=3$}
         \label{fig:0.750_3.000}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_3.300.png}
+        {x0_0.7500-mu_3.3000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=3.3$}
         \label{fig:0.750_3.300}
     \end{minipage}
@@ -223,22 +227,171 @@
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_3.500.png}
+        {x0_0.7500-mu_3.5000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=3.5$}
-        \label{fig:0.750_3.500}
+        \label{fig:0.7500_3.5000}
     \end{minipage}
     \begin{minipage}{0.50\hsize}
       \centering
       \includegraphics[width=70mm]
-        {x0_0.750-mu_3.800.png}
+        {x0_0.7500-mu_3.8000.png}
         \caption{初期値$x_0=0.75$，増加率$\mu=3.8$}
-        \label{fig:0.750_3.800}
+        \label{fig:0.7500_3.8000}
     \end{minipage}
   \end{tabular}
 \end{figure}
 
+\newpage
+\begin{figure}[htpb]
+  \begin{tabular}{c}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_4.0000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=4$}
+        \label{fig:0.7500_4.0000}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_4.1000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=4.1$}
+        \label{fig:0.7500_3.8000}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+
+\newpage
 \subsection{増加率を固定して初期値を変化させる}
 
+課題14.3-6: 増加率$\mu$を一定として初期値$x_0$を変化させる．
 
+$\mu=1$で固定した場合
+\begin{figure}[htpb]
+  \begin{tabular}{c}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.1000-mu_1.0000.png}
+        \caption{初期値$x_0=0.1$，増加率$\mu=1$}
+        \label{fig:0.1000_1.0000}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.5000-mu_1.0000.png}
+        \caption{初期値$x_0=0.5$，増加率$\mu=1$}
+        \label{fig:0.5000_1.0000}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+\begin{figure}[htpb]
+  \begin{tabular}{c}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_1.0000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=1$}
+        \label{fig:0.7500_1.0000-2}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.9000-mu_1.0000.png}
+        \caption{初期値$x_0=0.9$，増加率$\mu=1$}
+        \label{fig:0.9000_1.0000}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+
+$\mu=2.9$で固定した場合
+
+$x_* \ne 0$を不動点とするとき，
+\begin{equation}
+  x_* = \mu x_* (1-x_*)
+\end{equation}
+より
+\begin{equation}
+  x_* = 1 - \frac{1}{\mu}.
+\end{equation}
+$\mu=2.9$とすると$x_*=0.65517\ldots$．
+\begin{figure}[htpb]
+  \begin{tabular}{c}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.1000-mu_2.9000.png}
+        \caption{初期値$x_0=0.1$，増加率$\mu=2.9$}
+        \label{fig:0.1000_2.9000}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.2500-mu_2.9000.png}
+        \caption{初期値$x_0=0.25$，増加率$\mu=2.9$}
+        \label{fig:0.2500_2.9000}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+\begin{figure}[htpb]
+  \begin{tabular}{c}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.5000-mu_2.9000.png}
+        \caption{初期値$x_0=0.5$，増加率$\mu=2.9$}
+        \label{fig:0.5000_2.9000}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.6500-mu_2.9000.png}
+        \caption{初期値$x_0=0.65$，増加率$\mu=2.9$}
+        \label{fig:0.6500_2.9000}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+\begin{figure}[htpb]
+  \begin{tabular}{c}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.6540-mu_2.9000.png}
+        \caption{初期値$x_0=0.654$，増加率$\mu=2.9$}
+        \label{fig:0.6540_2.9000}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.6552-mu_2.9000.png}
+        \caption{初期値$x_0=0.6552$，増加率$\mu=2.9$}
+        \label{fig:0.6552_2.9000}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+\begin{figure}[htpb]
+  \begin{tabular}{c}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.7500-mu_2.9000.png}
+        \caption{初期値$x_0=0.75$，増加率$\mu=2.9$}
+        \label{fig:0.7500_2.9000-2}
+    \end{minipage}
+    \begin{minipage}{0.50\hsize}
+      \centering
+      \includegraphics[width=70mm]
+        {x0_0.9000-mu_2.9000.png}
+        \caption{初期値$x_0=0.9$，増加率$\mu=2.9$}
+        \label{fig:0.9000_2.9000}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+
+$\mu=3.3$で固定した場合
+
+$\mu=3.5$で固定した場合
+
+$\mu=3.8$で固定した場合
 
 \end{document}

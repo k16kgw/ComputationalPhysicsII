@@ -30,9 +30,9 @@ for i in range(1, N):
 
 # グラフの表示
 fig = plt.figure()                  # グラフの描画先の準備
-plt.title('初期値x0=%1.3f, 増加率μ=%1.3f' %(x0, mu))
+plt.title('初期値x0=%1.4f, 増加率μ=%1.4f' %(x0, mu))
 plt.plot(xlist, ylist)
 plt.xlabel('世代数')
 plt.ylabel('（無次元化された）個体数')
-fig.savefig("14-1_logistic/x0_%1.3f-mu_%1.3f.png" %(x0, mu))     # グラフをフォルダに画像として保存
+fig.savefig("14-1_logistic/x0_%1.4f-mu_%1.4f.png" %(x0, mu))     # グラフをフォルダに画像として保存
 plt.show()
