@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.4.13)  17 MAY 2020 00:24
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.4.13)  17 MAY 2020 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,8 +634,8 @@ File: x0_0.7500-mu_2.9000.png Graphic file (type bmp)
 <x0_0.7500-mu_2.9000.png>
 File: x0_0.7500-mu_3.0000.png Graphic file (type bmp)
 <x0_0.7500-mu_3.0000.png>
-File: x0_0.7500-mu_3.3000.png Graphic file (type bmp)
-<x0_0.7500-mu_3.3000.png>
+File: x0_0.7500-mu_3.5000.png Graphic file (type bmp)
+<x0_0.7500-mu_3.5000.png>
 File: x0_0.7500-mu_3.5000.png Graphic file (type bmp)
 <x0_0.7500-mu_3.5000.png>
 File: x0_0.7500-mu_3.8000.png Graphic file (type bmp)
@@ -655,13 +655,12 @@ Overfull \hbox (15.33253pt too wide) in paragraph at lines 246--262
 [][][][] 
  []
 
-[5]
 File: x0_0.1000-mu_1.0000.png Graphic file (type bmp)
 <x0_0.1000-mu_1.0000.png>
 File: x0_0.5000-mu_1.0000.png Graphic file (type bmp)
 <x0_0.5000-mu_1.0000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 271--287
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 270--286
 [][][][] 
  []
 
@@ -670,10 +669,11 @@ File: x0_0.7500-mu_1.0000.png Graphic file (type bmp)
 File: x0_0.9000-mu_1.0000.png Graphic file (type bmp)
 <x0_0.9000-mu_1.0000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 289--305
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 288--304
 [][][][] 
  []
 
+[5]
 File: x0_0.1000-mu_2.9000.png Graphic file (type bmp)
 <x0_0.1000-mu_2.9000.png>
 File: x0_0.2500-mu_2.9000.png Graphic file (type bmp)
@@ -710,27 +710,97 @@ Overfull \hbox (15.33253pt too wide) in paragraph at lines 373--389
 [][][][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
-[6] [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
+[6]
+File: x0_0.1000-mu_3.3000.png Graphic file (type bmp)
+<x0_0.1000-mu_3.3000.png>
+File: x0_0.2500-mu_3.3000.png Graphic file (type bmp)
+<x0_0.2500-mu_3.3000.png>
+
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 394--410
+[][][][] 
+ []
+
+File: x0_0.5000-mu_3.3000.png Graphic file (type bmp)
+<x0_0.5000-mu_3.3000.png>
+File: x0_0.7000-mu_3.3000.png Graphic file (type bmp)
+<x0_0.7000-mu_3.3000.png>
+
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 412--428
+[][][][] 
+ []
+
+File: x0_0.9000-mu_3.3000.png Graphic file (type bmp)
+<x0_0.9000-mu_3.3000.png>
+[7]
+File: x0_0.1000-mu_3.5000.png Graphic file (type bmp)
+<x0_0.1000-mu_3.5000.png>
+File: x0_0.2500-mu_3.5000.png Graphic file (type bmp)
+<x0_0.2500-mu_3.5000.png>
+
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 444--460
+[][][][] 
+ []
+
+File: x0_0.5000-mu_3.5000.png Graphic file (type bmp)
+<x0_0.5000-mu_3.5000.png>
+File: x0_0.7500-mu_3.5000.png Graphic file (type bmp)
+<x0_0.7500-mu_3.5000.png>
+
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 462--478
+[][][][] 
+ []
+
+File: x0_0.8000-mu_3.5000.png Graphic file (type bmp)
+<x0_0.8000-mu_3.5000.png>
+File: x0_0.9000-mu_3.5000.png Graphic file (type bmp)
+<x0_0.9000-mu_3.5000.png>
+
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 480--496
+[][][][] 
+ []
+
+[8]
+File: x0_0.1000-mu_3.8000.png Graphic file (type bmp)
+<x0_0.1000-mu_3.8000.png>
+File: x0_0.2500-mu_3.8000.png Graphic file (type bmp)
+<x0_0.2500-mu_3.8000.png>
+
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 501--517
+[][][][] 
+ []
+
+File: x0_0.5000-mu_3.8000.png Graphic file (type bmp)
+<x0_0.5000-mu_3.8000.png>
+File: x0_0.7500-mu_3.8000.png Graphic file (type bmp)
+<x0_0.7500-mu_3.8000.png>
+
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 519--535
+[][][][] 
+ []
+
+File: x0_0.9000-mu_3.8000.png Graphic file (type bmp)
+<x0_0.9000-mu_3.8000.png>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
+[9] [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
  (./14-1_logistic.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 397.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 548.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
 Package rerunfilecheck Info: File `14-1_logistic.out' has not changed.
 (rerunfilecheck)             Checksum: 929F6E146FABB3ED3F6131BCAECB5732;128.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 548.
  ) 
 Here is how much of TeX's memory you used:
- 11848 strings out of 481118
- 163003 string characters out of 5916929
- 553177 words of memory out of 5000000
- 27570 multiletter control sequences out of 15000+600000
+ 11929 strings out of 481118
+ 165274 string characters out of 5916929
+ 553934 words of memory out of 5000000
+ 27625 multiletter control sequences out of 15000+600000
  565943 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  37i,14n,36p,261b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 14-1_logistic.dvi (7 pages, 21200 bytes).
+Output written on 14-1_logistic.dvi (10 pages, 26788 bytes).
