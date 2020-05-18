@@ -20,6 +20,7 @@ x0 = x      # 初期値を保存
 xlist = [0]
 ylist = [x]
 
+"""logistic方程式の計算"""
 for i in range(1, N):
     x = mu * x * (1 - x)
     # 随時グラフ描画用変数に代入

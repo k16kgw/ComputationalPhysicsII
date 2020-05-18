@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.4.13)  18 MAY 2020 00:50
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.4.13)  18 MAY 2020 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,19 +583,19 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 47.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 78.
+(Font)              scaled to size 11.53198pt on input line 79.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 80.
+(Font)              scaled to size 4.805pt on input line 81.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 80.
+(Font)              scaled to size 6.72699pt on input line 81.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 80.
+(Font)              scaled to size 4.805pt on input line 81.
 File: x0_0.7500-mu_-1.0000.png Graphic file (type bmp)
 <x0_0.7500-mu_-1.0000.png>
 File: x0_0.7500-mu_-0.7500.png Graphic file (type bmp)
 <x0_0.7500-mu_-0.7500.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 82--98
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 83--99
 [][][][] 
  []
 
@@ -604,7 +604,7 @@ File: x0_0.7500-mu_-0.5000.png Graphic file (type bmp)
 File: x0_0.7500-mu_-0.2500.png Graphic file (type bmp)
 <x0_0.7500-mu_-0.2500.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 100--116
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 101--117
 [][][][] 
  []
 
@@ -618,7 +618,7 @@ File: x0_0.7500-mu_0.0000.png Graphic file (type bmp)
 File: x0_0.7500-mu_0.5000.png Graphic file (type bmp)
 <x0_0.7500-mu_0.5000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 135--151
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 136--152
 [][][][] 
  []
 
@@ -627,7 +627,7 @@ File: x0_0.7500-mu_1.0000.png Graphic file (type bmp)
 File: x0_0.7500-mu_1.3000.png Graphic file (type bmp)
 <x0_0.7500-mu_1.3000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 153--169
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 154--170
 [][][][] 
  []
 
@@ -636,7 +636,7 @@ File: x0_0.7500-mu_1.3300.png Graphic file (type bmp)
 File: x0_0.7500-mu_1.3500.png Graphic file (type bmp)
 <x0_0.7500-mu_1.3500.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 171--187
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 172--188
 [][][][] 
  []
 
@@ -645,7 +645,7 @@ File: x0_0.7500-mu_1.5000.png Graphic file (type bmp)
 File: x0_0.7500-mu_2.0000.png Graphic file (type bmp)
 <x0_0.7500-mu_2.0000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 189--205
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 190--206
 [][][][] 
  []
 
@@ -654,7 +654,7 @@ File: x0_0.7500-mu_2.8000.png Graphic file (type bmp)
 File: x0_0.7500-mu_2.9000.png Graphic file (type bmp)
 <x0_0.7500-mu_2.9000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 207--223
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 208--224
 [][][][] 
  []
 
@@ -663,7 +663,7 @@ File: x0_0.7500-mu_3.0000.png Graphic file (type bmp)
 File: x0_0.7500-mu_3.5000.png Graphic file (type bmp)
 <x0_0.7500-mu_3.5000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 225--241
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 226--242
 [][][][] 
  []
 
@@ -672,7 +672,7 @@ File: x0_0.7500-mu_3.8000.png Graphic file (type bmp)
 File: x0_0.7500-mu_4.0000.png Graphic file (type bmp)
 <x0_0.7500-mu_4.0000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 243--259
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 244--260
 [][][][] 
  []
 
@@ -684,7 +684,7 @@ File: x0_0.1000-mu_1.0000.png Graphic file (type bmp)
 File: x0_0.5000-mu_1.0000.png Graphic file (type bmp)
 <x0_0.5000-mu_1.0000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 279--295
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 280--296
 [][][][] 
  []
 
@@ -693,7 +693,7 @@ File: x0_0.7500-mu_1.0000.png Graphic file (type bmp)
 File: x0_0.9000-mu_1.0000.png Graphic file (type bmp)
 <x0_0.9000-mu_1.0000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 297--313
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 298--314
 [][][][] 
  []
 
@@ -703,7 +703,7 @@ File: x0_0.1000-mu_2.9000.png Graphic file (type bmp)
 File: x0_0.2500-mu_2.9000.png Graphic file (type bmp)
 <x0_0.2500-mu_2.9000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 328--344
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 329--345
 [][][][] 
  []
 
@@ -712,7 +712,7 @@ File: x0_0.5000-mu_2.9000.png Graphic file (type bmp)
 File: x0_0.6500-mu_2.9000.png Graphic file (type bmp)
 <x0_0.6500-mu_2.9000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 346--362
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 347--363
 [][][][] 
  []
 
@@ -721,7 +721,7 @@ File: x0_0.6540-mu_2.9000.png Graphic file (type bmp)
 File: x0_0.6552-mu_2.9000.png Graphic file (type bmp)
 <x0_0.6552-mu_2.9000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 364--380
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 365--381
 [][][][] 
  []
 
@@ -730,7 +730,7 @@ File: x0_0.7500-mu_2.9000.png Graphic file (type bmp)
 File: x0_0.9000-mu_2.9000.png Graphic file (type bmp)
 <x0_0.9000-mu_2.9000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 382--398
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 383--399
 [][][][] 
  []
 
@@ -740,7 +740,7 @@ File: x0_0.1000-mu_3.3000.png Graphic file (type bmp)
 File: x0_0.2500-mu_3.3000.png Graphic file (type bmp)
 <x0_0.2500-mu_3.3000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 403--419
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 404--420
 [][][][] 
  []
 
@@ -749,7 +749,7 @@ File: x0_0.5000-mu_3.3000.png Graphic file (type bmp)
 File: x0_0.7000-mu_3.3000.png Graphic file (type bmp)
 <x0_0.7000-mu_3.3000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 421--437
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 422--438
 [][][][] 
  []
 
@@ -761,7 +761,7 @@ File: x0_0.1000-mu_3.5000.png Graphic file (type bmp)
 File: x0_0.2500-mu_3.5000.png Graphic file (type bmp)
 <x0_0.2500-mu_3.5000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 453--469
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 454--470
 [][][][] 
  []
 
@@ -770,7 +770,7 @@ File: x0_0.5000-mu_3.5000.png Graphic file (type bmp)
 File: x0_0.7500-mu_3.5000.png Graphic file (type bmp)
 <x0_0.7500-mu_3.5000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 471--487
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 472--488
 [][][][] 
  []
 
@@ -779,7 +779,7 @@ File: x0_0.8000-mu_3.5000.png Graphic file (type bmp)
 File: x0_0.9000-mu_3.5000.png Graphic file (type bmp)
 <x0_0.9000-mu_3.5000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 489--505
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 490--506
 [][][][] 
  []
 
@@ -789,7 +789,7 @@ File: x0_0.1000-mu_3.8000.png Graphic file (type bmp)
 File: x0_0.2500-mu_3.8000.png Graphic file (type bmp)
 <x0_0.2500-mu_3.8000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 510--526
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 511--527
 [][][][] 
  []
 
@@ -798,7 +798,7 @@ File: x0_0.5000-mu_3.8000.png Graphic file (type bmp)
 File: x0_0.7500-mu_3.8000.png Graphic file (type bmp)
 <x0_0.7500-mu_3.8000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 528--544
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 529--545
 [][][][] 
  []
 
@@ -809,7 +809,7 @@ File: x0_0.7500-mu_-0.5000.png Graphic file (type bmp)
 File: x0_0.7500-mu_0.4000.png Graphic file (type bmp)
 <x0_0.7500-mu_0.4000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 561--577
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 562--578
 [][][][] 
  []
 
@@ -818,7 +818,7 @@ File: x0_0.7500-mu_1.5000.png Graphic file (type bmp)
 File: x0_0.7500-mu_2.4000.png Graphic file (type bmp)
 <x0_0.7500-mu_2.4000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 579--595
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 580--596
 [][][][] 
  []
 
@@ -827,7 +827,7 @@ File: x0_0.7500-mu_3.2000.png Graphic file (type bmp)
 File: x0_0.7500-mu_3.5000.png Graphic file (type bmp)
 <x0_0.7500-mu_3.5000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 597--613
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 598--614
 [][][][] 
  []
 
@@ -836,7 +836,7 @@ File: x0_0.7500-mu_3.6000.png Graphic file (type bmp)
 File: x0_0.7500-mu_3.8264.png Graphic file (type bmp)
 <x0_0.7500-mu_3.8264.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 615--631
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 616--632
 [][][][] 
  []
 
@@ -845,7 +845,7 @@ File: x0_0.7500-mu_3.8274.png Graphic file (type bmp)
 File: x0_0.7500-mu_3.8284-N_300.png Graphic file (type bmp)
 <x0_0.7500-mu_3.8284-N_300.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 633--649
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 634--650
 [][][][] 
  []
 
@@ -854,32 +854,40 @@ File: x0_0.7500-mu_3.8304.png Graphic file (type bmp)
 File: x0_0.7500-mu_4.0000.png Graphic file (type bmp)
 <x0_0.7500-mu_4.0000.png>
 
-Overfull \hbox (15.33253pt too wide) in paragraph at lines 651--667
+Overfull \hbox (15.33253pt too wide) in paragraph at lines 652--668
 [][][][] 
  []
 
-[9] [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 672.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 672.
+[9] [10] [11] [12]
+File: chaos-parallel.png Graphic file (type bmp)
+<chaos-parallel.png>
+File: chaos-overlap.png Graphic file (type bmp)
+<chaos-overlap.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 774.
+[13] [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 774.
  (./14-1_logistic.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 672.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 672.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 774.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 774.
 Package rerunfilecheck Info: File `14-1_logistic.out' has not changed.
-(rerunfilecheck)             Checksum: 929F6E146FABB3ED3F6131BCAECB5732;128.
+(rerunfilecheck)             Checksum: F3B399D0A28DFE26BB045B5946EE6BE1;264.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 672.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 774.
  ) 
 Here is how much of TeX's memory you used:
- 11978 strings out of 481118
- 166688 string characters out of 5916929
- 554528 words of memory out of 5000000
- 27658 multiletter control sequences out of 15000+600000
+ 11991 strings out of 481118
+ 166981 string characters out of 5916929
+ 614655 words of memory out of 5000000
+ 27667 multiletter control sequences out of 15000+600000
  565943 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 37i,14n,36p,261b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,14n,36p,261b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 14-1_logistic.dvi (11 pages, 31368 bytes).
+Output written on 14-1_logistic.dvi (14 pages, 50164 bytes).
