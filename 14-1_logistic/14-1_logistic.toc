@@ -1,9 +1,9 @@
 \contentsline {section}{\numberline {1}14-1\_logistic.pyのコード}{1}{section.1}%
 \contentsline {section}{\numberline {2}14-1\_logistic.pyの実行結果}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}初期値を$0.75$に固定して増加率を変化させる}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}増加率を固定して初期値を変化させる}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}ファイゲンバウムによる観察の確認}{9}{subsection.2.3}%
-\contentsline {section}{\numberline {3}14-4\_chaos.pyのコード}{11}{section.3}%
-\contentsline {section}{\numberline {4}14-4\_chaos.pyの実行結果}{13}{section.4}%
-\contentsline {section}{\numberline {5}14-5\_branch.pyのコード}{14}{section.5}%
-\contentsline {section}{\numberline {6}14-5\_branch.pyの実行結果}{15}{section.6}%
+\contentsline {subsection}{\numberline {2.2}増加率を固定して初期値を変化させる}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}ファイゲンバウムによる観察の確認}{11}{subsection.2.3}%
+\contentsline {section}{\numberline {3}14-4\_chaos.pyのコード}{12}{section.3}%
+\contentsline {section}{\numberline {4}14-4\_chaos.pyの実行結果}{15}{section.4}%
+\contentsline {section}{\numberline {5}14-5\_branch.pyのコード}{17}{section.5}%
+\contentsline {section}{\numberline {6}14-5\_branch.pyの実行結果}{18}{section.6}%

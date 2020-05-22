@@ -26,6 +26,8 @@
 % 自作マクロ
 \input{../mymacro.tex}
 
+\usepackage{here}
+
 % 図
 %\usepackage{tikz}
 %\usetikzlibrary{positioning}
@@ -43,7 +45,17 @@
 
 \section{14-1\_logistic.pyのコード}
 
+Landau, et al. 『計算物理学II』朝倉書店．14章p.338(1--6), p.340(1--2)の演習を次のプログラム 14-1\_logistic.py で行う．
+
 \begin{lstlisting}[caption=14-1\_logistic.py, label=logistic]
+  # -*- coding: utf-8 -*-
+  """
+  14-1_logistic.pyプログラム
+  Landau, et al. 『計算物理学II』朝倉書店．14章p.338の演習
+  （無次元化された）ロジスティック方程式のシミュレーション
+  使い方 14-1_logistic.py
+  """
+
   import matplotlib.pyplot as plt
   import japanize_matplotlib          # 日本語表示に対応
   
@@ -79,7 +91,8 @@
 \subsection{初期値を$0.75$に固定して増加率を変化させる}
 
 課題14.3-3: $\mu<0$のとき個体数は振動しながら減衰し，$\mu=0$のとき個体数は直ちに消滅する．
-\begin{figure}[htpb]
+
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -97,7 +110,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -115,7 +128,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -130,9 +143,8 @@
   \end{tabular}
 \end{figure}
 
-\newpage
 課題14.3-4: $\mu \ge 0$のときの個体数の変化．
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -150,7 +162,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -168,7 +180,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -186,7 +198,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -204,7 +216,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -222,7 +234,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -240,7 +252,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -258,7 +270,7 @@
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -276,7 +288,7 @@
 課題14.3-6: 増加率$\mu$を一定として初期値$x_0$を変化させる．
 
 $\mu=1$で固定した場合
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -294,7 +306,7 @@ $\mu=1$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -313,7 +325,6 @@ $\mu=1$で固定した場合
   \end{tabular}
 \end{figure}
 
-\newpage
 $\mu=2.9$で固定した場合
 
 $x_* \ne 0$を不動点とするとき，
@@ -325,7 +336,7 @@ $x_* \ne 0$を不動点とするとき，
   x_* = 1 - \frac{1}{\mu}.
 \end{equation}
 $\mu=2.9$とすると$x_*=0.65517\ldots$．
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -343,7 +354,7 @@ $\mu=2.9$とすると$x_*=0.65517\ldots$．
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -361,7 +372,7 @@ $\mu=2.9$とすると$x_*=0.65517\ldots$．
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -379,7 +390,7 @@ $\mu=2.9$とすると$x_*=0.65517\ldots$．
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -400,7 +411,7 @@ $\mu=2.9$とすると$x_*=0.65517\ldots$．
 
 \newpage
 $\mu=3.3$で固定した場合
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -418,7 +429,7 @@ $\mu=3.3$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -436,7 +447,7 @@ $\mu=3.3$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -450,7 +461,7 @@ $\mu=3.3$で固定した場合
 
 \newpage
 $\mu=3.5$で固定した場合
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -468,7 +479,7 @@ $\mu=3.5$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -486,7 +497,7 @@ $\mu=3.5$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -507,7 +518,7 @@ $\mu=3.5$で固定した場合
 
 \newpage
 $\mu=3.8$で固定した場合
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -525,7 +536,7 @@ $\mu=3.8$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -543,7 +554,7 @@ $\mu=3.8$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -555,10 +566,11 @@ $\mu=3.8$で固定した場合
   \end{tabular}
 \end{figure}
 
+\newpage
 \subsection{ファイゲンバウムによる観察の確認}
 
 ここでは初期値を$x_0=0.75$に固定する．
-\begin{figure}[htpb]
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -576,7 +588,7 @@ $\mu=3.8$で固定した場合
     \end{minipage}
   \end{tabular}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -594,7 +606,7 @@ $\mu=3.8$で固定した場合
     \end{minipage}    
   \end{tabular}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -612,7 +624,7 @@ $\mu=3.8$で固定した場合
     \end{minipage}    
   \end{tabular}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -630,7 +642,7 @@ $\mu=3.8$で固定した場合
     \end{minipage}    
   \end{tabular}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -648,7 +660,7 @@ $\mu=3.8$で固定した場合
     \end{minipage}    
   \end{tabular}
 \end{figure}
-\begin{figure}
+\begin{figure}[H]
   \begin{tabular}{c}
     \begin{minipage}{0.50\hsize}
       \centering
@@ -667,9 +679,9 @@ $\mu=3.8$で固定した場合
   \end{tabular}
 \end{figure}
 
-\newpage
-
 \section{14-4\_chaos.pyのコード}
+
+Landau, et al. 『計算物理学II』朝倉書店．14章p.340(3)の演習を次のコード 14-4\_chaos.py で行う．
 
 \begin{lstlisting}[caption=14-4\_chaos.py, label=chaos]
   # -*- coding: utf-8 -*-
@@ -762,20 +774,23 @@ $\mu=3.8$で固定した場合
 
 \section{14-4\_chaos.pyの実行結果}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=150mm]{chaos-parallel.png}
     \caption{ロジスティック写像のカオス的挙動-1}
     \label{fig:chaos-parallel}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=150mm]{chaos-overlap.png}
     \caption{ロジスティック写像のカオス的挙動-1}
     \label{fig:chaos-overlap}
 \end{figure}
 
+\newpage
 \section{14-5\_branch.pyのコード}
+
+Landau, et al. 『計算物理学II』朝倉書店．14章p.343(1--9)の演習を次のプログラム 14-8\_branch.py で行う．
 
 \begin{lstlisting}[caption=14-8\_branch.py, label=branch]
   # -*- coding: utf-8 -*-
@@ -825,16 +840,17 @@ $\mu=3.8$で固定した場合
   print('グラフ描画終了')  
 \end{lstlisting}
 
+\newpage
 \section{14-5\_branch.pyの実行結果}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=150mm]{branch_1-4.png}
     \caption{$1<\mu<4$でのロジスティック写像の分岐図}
     \label{fig:branch1}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=150mm]{branch_3-4.png}
     \caption{$3<\mu<4$でのロジスティック写像の分岐図}
