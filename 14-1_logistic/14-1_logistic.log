@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.4.13)  22 MAY 2020 17:55
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.4.13)  22 MAY 2020 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,31 +864,34 @@ File: chaos-parallel.png Graphic file (type bmp)
 <chaos-parallel.png>
 File: chaos-overlap.png Graphic file (type bmp)
 <chaos-overlap.png>
+ [13] [14]
+File: branch.png Graphic file (type bmp)
+<branch.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 781.
-[13] [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 781.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
+[15] [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
  (./14-1_logistic.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 781.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 781.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 837.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
 Package rerunfilecheck Info: File `14-1_logistic.out' has not changed.
 (rerunfilecheck)             Checksum: 51F918D5CC8078B016FD50F60BCDFEB7;395.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 781.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
  ) 
 Here is how much of TeX's memory you used:
- 11991 strings out of 481118
- 166981 string characters out of 5916929
- 614655 words of memory out of 5000000
- 27667 multiletter control sequences out of 15000+600000
+ 11998 strings out of 481118
+ 167087 string characters out of 5916929
+ 614736 words of memory out of 5000000
+ 27672 multiletter control sequences out of 15000+600000
  565943 words of font info for 157 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  37i,14n,36p,261b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 14-1_logistic.dvi (14 pages, 50868 bytes).
+Output written on 14-1_logistic.dvi (16 pages, 59840 bytes).

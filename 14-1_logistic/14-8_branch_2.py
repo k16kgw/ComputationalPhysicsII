@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-14-8_branch.pyプログラム
+14-8_branch_2.pyプログラム
 Landau, et al. 『計算物理学II』朝倉書店．14章p.343の演習
-（無次元化された）ロジスティック写像の分岐図を描画するシミュレーション
-使い方 14-8_branch.py
+（無次元化された）ロジスティック写像の分岐図をμが3から4の範囲で描画するシミュレーション
+使い方 14-8_branch_2.py
 """
 
 import numpy as np 
@@ -17,7 +17,7 @@ xlist = []
 ylist = []
 
 print('start')
-for mu in np.arange(1, 4, 0.003):
+for mu in np.arange(3, 4, 0.001):
     #print(mu)
     for x0 in np.arange(0.002, 1, 0.002):
         x = x0
