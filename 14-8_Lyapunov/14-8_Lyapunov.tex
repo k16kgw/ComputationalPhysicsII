@@ -1,0 +1,50 @@
+\documentclass[a4paper, oneside]{jsarticle}
+
+\usepackage{listings,jlisting} %日本語のコメントアウトをする場合jlistingが必要
+%ここからソースコードの表示に関する設定
+\lstset{
+%  language={Python},
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+%ここまでソースコードの表示に関する設定
+
+% 自作マクロ
+\input{../mymacro.tex}
+
+% 図
+%\usepackage{tikz}
+%\usetikzlibrary{positioning}
+
+\begin{document}
+
+\title{14章1〜6節（ロジスティック写像）の実行結果のまとめ}
+\author{香川渓一郎}
+\date{\today}
+
+\maketitle
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\section{14-5\_branch.pyのコード}
+
+\begin{lstlisting}[caption=14-5\_branch.py, label=branch]
+  
+\end{lstlisting}
+
+\end{document}
